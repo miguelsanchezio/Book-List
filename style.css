@@ -11,3 +11,15 @@
 .error {
     background: rgb(232, 74, 74);
 }
+
+a {
+    background-color: rgb(232, 74, 74);
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 6px;
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #fff;
+}
