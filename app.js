@@ -57,6 +57,7 @@ UI.prototype.showAlert = function(message, className) {
         document.querySelector('.alert').remove();
     }, 2000);
 }
+
 // Event listener for adding books
 document.getElementById('book-form').addEventListener('submit', function(e) {
     const title = document.getElementById('title').value,
